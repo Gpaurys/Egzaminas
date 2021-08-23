@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+       
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    padding-top: 20px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    transition: background-color 0.2s ease;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.logo {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #212529;
+    
+}
+
+.navbar-item-list li {
+    display: none;
+    list-style: none;  
+}
+
+li a {
+    text-decoration: none;
+    display: flex;
+}
+
+.burger {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.fa-bars {
+    font-size: 24px;
+    padding-top: 7px;
+}
+
+.header-bg {
+    position: relative;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../Egzaminas/img/bg-masthead.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    opacity: 0.8;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 20px;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.2;
+}
+
+.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+    border: none;
+}
+
+.header-text {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.header-btn {
+    padding: 20px 36px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #f4623a;
+    color: #fff;
+}
+
+.article-container {
+    height: 500px;
+    background-color: #f4623a;
+    text-align: center;
+}
+
+.article-title {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #fff;
+    opacity: 1;
+    border: none;
+}
+
+.article-text {
+    color: rgba(255, 255, 255, 0.75);
+    padding: 0px 30px;
+    font-size: 17px;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.4;
+}
+
+.article-btn {
+    padding: 20px 36px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #fff;
+    color: #000;
+    margin-top: 30px;
+}
+
+
+.service-container {
+    background-color: #fff;
+    text-align: center;
+    height: 100vh;
+}
+
+.service-title {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+    border: none;
+}
+
+.service-icon {
+    padding-top: 50px;
+    font-size: 28px;
+    color:  #f4623a;
+    margin-bottom: 20px;
+}
+
+.service-name {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 100;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.service-text {
+    color: #6c757d;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0px 15px;
+}
+
+.gallery-box1 {
+    background-image: url("../Egzaminas/img/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.gallery-box1:hover {
+    background-color: #f4623a;
+    cursor: pointer;
+}
+
+.gallery-box2 {
+    background-image: url("../Egzaminas/img/2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.gallery-box3 {
+    background-image: url("../Egzaminas/img/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.gallery-box4 {
+    background-image: url("../Egzaminas/img/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.gallery-box5 {
+    background-image: url("../Egzaminas/img/5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.gallery-box6 {
+    background-image: url("../Egzaminas/img/6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+
+.download-container {
+    background-color:#212529;
+    height: 350px;
+    text-align: center;
+}
+
+.download-title {
+    padding-top: 120px;
+    color: #fff;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+.download-btn {
+    padding: 20px 36px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #fff;
+    color: #000;
+    margin-top: 30px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-title {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.form-text {
+    color: #6c757d;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0px 50px;
+    margin-bottom: 50px;
+}
+
+.input {
+    width: 100%;
+    padding: 8px 16px;
+}
+
+.form-control {
+    display: flex;
+    width: calc(100% - 100px);
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #000; 
+    font-family: sans-serif;  
+    margin-left: 50px;
+}
+
+.form-textarea {
+    display: block;
+    width: calc(100% - 35px);
+    margin-left: 17.5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #000; 
+    font-family: sans-serif;  
+}
+
+.form-btn {
+    width: 100%;
+    padding: 20px 36px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #f4623a;
+    color: #fff;
+    margin-top: 30px;
+    opacity: 0.7h;
+    margin-bottom: 30px;
+}
+
+.fa-mobile-alt {
+    font-size: 28px;
+    padding-bottom: 10px;
+    color:rgb(109, 109, 109);
+}
+
+span {
+    margin-bottom: 100px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+    margin-top: 70px;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 40px 0px;
+    color: #6c757d;
+    font-size: 17px;
+}
